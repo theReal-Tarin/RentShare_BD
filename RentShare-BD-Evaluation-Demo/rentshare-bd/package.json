@@ -1,0 +1,7 @@
+{
+  "name":"rentshare-bd","version":"1.0.0","private":true,"type":"module",
+  "engines":{"node":">=24.0.0"},
+  "scripts":{"dev":"node scripts/dev.mjs","build":"vite build","start":"node server/index.js","seed":"node server/seed.js","test":"node --test tests/*.test.js"},
+  "dependencies":{"express":"4.22.2","react":"19.2.8","react-dom":"19.2.8","lucide-react":"^0.468.0"},
+  "devDependencies":{"vite":"8.2.1"}
+}
